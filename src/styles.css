@@ -93,12 +93,6 @@ p {
 
 }
 
-.home2{
-    background-image: url(assets/img/Rectangle\ 59.png);
-    width: 1123px;
-    height: 1004px;
-}
-
 .contact-section-bio {
     background-image: url(assets/img/person-walking-new-york-city.jpg);
     background-size: cover;
@@ -125,17 +119,37 @@ p {
  /* Crie um efeito de zoom nas fotos ao passar o mouse por cima utilizando apenas CSS ( */
 
 .gallery {
-    width: 300px; /* Largura do container da imagem */
+    width: 100%; /* Largura do container da imagem */
+    height: 100%;
     overflow: hidden; /* Oculta a parte da imagem que transbordar */
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap; /* Permite que as imagens quebrem para novas linhas */
+    gap: 5px; /* Espaço entre as imagens */
+    justify-content: center; /* Centraliza as imagens horizontalmente */
 }
 
 .gallery img {
-    width: 100%; /* A imagem ocupa toda a largura do container */
-    transition: transform 0.5s ease; /* Define uma transição suave */
+    width: calc(25% - 15px); /* Ajusta a largura das imagens para 4 por linha com espaço entre elas */
+    transition: transform 0.5s ease;
+    border-radius: 10px;
 }
 
 .gallery img:hover {
     transform: scale(1.2); /* Aplica o zoom (120%) ao passar o mouse */
+}
+
+
+@media (max-width: 768px) {
+    .gallery img {
+        width: calc(50% - 55px); /* Ajusta para 2 imagens por linha em telas menores */
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery img {
+        width: calc(100% - 55px); /* Ajusta para 1 imagem por linha em telas muito pequenas */
+    }
 }
 /*contato*/
 
@@ -162,7 +176,7 @@ button {
     display: block;
     margin: 20px auto;
     padding: 10px 20px;
-    background-color: #ffc800;
+    background-color: black;
     color: white;
     border: none;
     border-radius: 5px;
@@ -171,6 +185,11 @@ button {
 
 button:hover {
     background-color: #d61612;
+}
+
+a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: beige;
 }
 
 .image-gallery {
