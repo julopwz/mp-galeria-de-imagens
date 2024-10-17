@@ -118,7 +118,7 @@ p {
 
  /* Crie um efeito de zoom nas fotos ao passar o mouse por cima utilizando apenas CSS ( */
 
-.gallery {
+ .gallery {
     width: 100%; /* Largura do container da imagem */
     height: 100%;
     overflow: hidden; /* Oculta a parte da imagem que transbordar */
@@ -132,23 +132,21 @@ p {
 .gallery img {
     width: calc(25% - 15px); /* Ajusta a largura das imagens para 4 por linha com espaço entre elas */
     transition: transform 0.5s ease;
-    border-radius: 10px;
 }
 
 .gallery img:hover {
-    transform: scale(1.2); /* Aplica o zoom (120%) ao passar o mouse */
+    transform: scale(1.2);
 }
-
 
 @media (max-width: 768px) {
     .gallery img {
-        width: calc(50% - 55px); /* Ajusta para 2 imagens por linha em telas menores */
+        width: calc(50% - 15px); /* Ajusta para 2 imagens por linha em telas menores */
     }
 }
 
 @media (max-width: 480px) {
     .gallery img {
-        width: calc(100% - 55px); /* Ajusta para 1 imagem por linha em telas muito pequenas */
+        width: calc(100% - 15px); /* Ajusta para 1 imagem por linha em telas muito pequenas */
     }
 }
 /*contato*/
@@ -197,7 +195,7 @@ a {
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .image-gallery img {

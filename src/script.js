@@ -14,8 +14,8 @@ function loadMoreImages() {
         'imagem8.png',
         'imagem9.jpg',
         'imagem10.jpg',
-        
-
+        'imagem11.png',
+        'imagem12.jpg',
     ];
 
  // Percorre as novas imagens e adiciona à galeria
