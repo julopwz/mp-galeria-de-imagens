@@ -78,20 +78,20 @@ section {
 }
 
 h1 {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: white;
 }
 
+.titulo {
+    font-size: 90px;
+
+}
 p {
-    font-size: 16px;
-    line-height: 1.6;
+    font-size: 17px;
+    line-height: 1.4;
     color: white;
 }
 
-.textobio{
-    font-size: small;
-
-}
 
 .contact-section-bio {
     background-image: url(assets/img/person-walking-new-york-city.jpg);
