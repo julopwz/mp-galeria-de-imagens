@@ -75,7 +75,6 @@ body {
 section {
     padding: 0;
     height: 100%;
-    border-bottom: 1px solid #bb1a1a;
 }
 
 h1 {
@@ -95,13 +94,33 @@ p {
     height: 1004px;
 }
 
-
-
+.contact-section-bio {
+    background-image: url(assets/img/person-walking-new-york-city.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.contact-section-index {
+    background-image: url(assets/img/portrait-indigenous-person-integrated-into-modern-life.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
 /*contato*/
 
 
 .contact-section {
-    background-image: url(assets/img/Rectangle\ 59.png);
+    background-image: url(assets/img/portrait-diverse-women-together.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
