@@ -7,7 +7,8 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Darker Grotesque", sans-serif;
+    background-color: #000;
 }
 
 .darker-grotesque {
@@ -72,15 +73,77 @@ body {
 }
 
 section {
-    padding: 20px;
-    border-bottom: 1px solid #ddd;
+    padding: 0;
+    height: 100%;
+    border-bottom: 1px solid #bb1a1a;
 }
 
 h1 {
     margin-bottom: 10px;
+    color: white;
 }
 
 p {
     font-size: 16px;
     line-height: 1.6;
+    color: white;
+}
+
+.home2{
+    background-image: url(assets/img/Rectangle\ 59.png);
+    width: 1123px;
+    height: 1004px;
+}
+
+
+
+/*contato*/
+
+
+.contact-section {
+    background-image: url(assets/img/Rectangle\ 59.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.contact-info {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #ffc800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d61612;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+}
+
+.image-gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
 }
