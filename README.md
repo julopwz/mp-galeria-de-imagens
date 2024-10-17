@@ -1,5 +1,7 @@
 # Galeria de Fotos Responsiva com HTML, CSS e JavaScript
 
+link aqui do site: https://mp-galeria-de-imagensju.netlify.app
+
 Este mini projeto consiste em criar uma galeria de fotos utilizando apenas HTML, CSS e JavaScript, baseado no layout da página apresentada. A galeria terá uma barra de navegação lateral e um botão para carregar mais imagens. O objetivo é criar uma interface limpa e funcional, com foco na exibição das fotos.
 
 ## 🤓 Antes de começar
